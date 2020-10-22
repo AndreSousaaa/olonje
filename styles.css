@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+a{
+    color: var(--roxo);
+}
+
+:root{
+    --orange: #FA4A0C;
+    --braco: #FFFFFF;
+    --preto: #000000;
+    --roxo: #252B42;
+    --cinza: #737373;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 156px;
+    font-size: 16px;
+}
+.header img{
+   
+    margin: 27px 0px 27px 70px;
+
+}
+
+
+.header nav ul{        
+    display: flex;
+    justify-content: flex-end;
+    align-items: bottom;
+    margin: 70px 20px 0px 0px;     
+       
+}
+
+.header nav ul li{
+    
+    padding: 10px;
+    
+}
+.header .home{
+    color: var(--orange);
+}
+
+.header nav ul li a:hover{
+    color: lightblue;
+}
+
+.hero{
+    background-image: url("img/heroM.svg");
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--braco);
+}
+.hero img{
+    max-width: 548px;
+    max-height: 640px;
+}
+.hero h1{
+    font-size: 58px;
+}
+.hero h3{
+    font-size: 24px;
+}
+.hero ul{
+    display: flex;
+}
+.hero ul li{
+    margin: 20px;
+    background-color: var(--orange);
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+.hero ul li a{
+    color: var(--braco);
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+}
+
+.linha{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.create{
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+@media (max-width:880px){
+    .create{
+        display: block;
+        margin-left: 100px;
+        
+    }
+
+}
+.section .create h2{
+    margin: 10px 0px 10px 0px;
+}
+
+.section .create .account{
+    font-size: 24px;
+    color: var(--orange);
+}
+
+.section .create .login{
+    font-size: 40px;
+    color: var(--roxo);
+}
+.section .create .senha{
+    font-size: 24px;
+    color: var(--cinza);
+}
+
+.delicious{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:880px){
+    .delicious{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        
+    }
+
+}
+.delicious h2{
+    margin: 10px 0px 10px 0px;
+}
+.delicious .account{
+    color: var(--orange);
+    font-size: 24px;
+}
+.delicious .login{
+    color: var(--roxo);
+    font-size: 40px;
+}
+.delicious .senha{
+    font-size: 24px;
+    color: var(--cinza);
+}
+
+.checkout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:880px){
+    .checkout{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+}
+
+.checkout h2{
+    margin: 10px 0px 10px 0px;
+}
+
+.checkout .account{
+    font-size: 24px;
+    color: var(--orange);
+}
+.checkout .login{
+    font-size: 40px;
+    color: var(--roxo);
+}
+.checkout .senha{
+    font-size: 24px;
+    color: var(--cinza);
+}
+
+
+.paes{
+    height: 519px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('img/paes.svg');
+    justify-content: center;
+    align-items: center;
+}
+
+.paes ul{
+    display: flex;
+}
+.paes ul li{
+    margin: 20px;
+    background-color: var(--orange);
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+.paes ul li a{
+    color: var(--braco);
+}
+
+.paes h2{
+    font-size: 40px;
+    color: var(--braco);
+    margin: 10px;
+}
+.paes h3{
+    font-size: 24px;
+    color: var(--braco);
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width:1080px){
+    
+}
+
+.footer .redes{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
